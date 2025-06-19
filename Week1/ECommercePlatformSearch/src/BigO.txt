@@ -1,0 +1,34 @@
+Big O notation describes the upper bound of an algorithm's running time as the input size grows. 
+It helps you understand how your code will perform at scale.
+
+ Notation       |        Meaning
+ ------------------------------------	           
+  O(1)	        |     Constant time
+  O(n)	        |      Linear time
+O(log n)	    |    Logarithmic time
+O(n log n)	    |    Linearithmic time
+  O(n²)	        |      Quadratic time
+
+
+
+Best, Average, and Worst-Case in Search:
+
+| Algorithm  | Best Case | Average Case | Worst Case |
+| ---------- | --------- | ------------ | ---------- |
+|   Linear   | O(1)      | O(n)         | O(n)       |
+|   Binary   | O(1)      | O(log n)     | O(log n)   |
+
+Best Case: Item is at the first position (for linear), or in the middle (for binary).
+
+Worst Case: Item is not present or at the end.
+
+Average Case: On average, how long it takes assuming uniform distribution.
+
+
+
+
+Recommendation:
+
+--Use Linear Search for small or unsorted data.
+
+--Use Binary Search for large and sorted arrays, which makes it ideal for scalable e-commerce platforms.
