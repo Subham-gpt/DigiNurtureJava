@@ -1,0 +1,14 @@
+JPA (Java Persistence API)
+-- A Java interface for object-relational mapping (ORM)
+-- You annotate your entities with @Entity, @Id etc.
+-- JPA defines how to persist objects, but doesn’t perform any action by itself.
+
+Hibernate
+-- It is an implementation of JPA.
+-- Provides the actual logic to persist objects to the DB.
+-- It maps Java classes to DB tables.
+
+Spring Data JPA
+-- A Spring project that sits on top of JPA.
+-- Automatically generates the DAO code.
+-- Provides interfaces like JpaRepository and generates query methods automatically
